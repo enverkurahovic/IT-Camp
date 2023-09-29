@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <style>
+        /* h1 predstavlja css selektor sto je zapravo pravilo pomocu kojeg pristupamo html elementu za koji zelimo da definisemo stilove */
+        h1  {
+            /* color predstavlja css property (svojstva) */
+            color: red;
+        }
+        p {
+            /* font-size: 16px; standardna velicina slova je 16px */
+            font-size: 18px;
+            text-indent: 40px;
+            /* text-align: left; difoltna vrednost */
+            text-align: right;
+            text-align: center;  /* primenice se poslednje definisano svojsto */
+            text-align: justify;
+            text-align-last: right;
+            /* text-transform; uppercase */
+            /* text-transform: capitalize;  */
+            /* text-transform: lowercase;  */
+            color: blue;
+        }
+        ul {
+            list-style-position: inside;
+        }
+        .prvi {
+            background-color: rgb(7, 79, 160);
+            width: 400px;
+            height: 400px;
+        }
+        #naslov {
+            color: lightgreen;
+        }
+        /* id ima prioritet u odnosu na klasu kada se radi o primeni stilova */
+        /* obicno cemo koristiti id ako zelimo da definisemo neki jednistveni element */
+        .naslov {
+            color: rgb(27, 104, 32);
+        }
+      .body {
+        background-color: #7fffd4;
+      }
+    </style>
+</head>
+<body class="body">
+    <!-- klasi prvi pristupamo za prefiksom . u css-u -->
+    <div class="prvi">
+        <h1>Danas radimo css - Cascading Style Sheets</h1> 
+        <!-- jezik za definisanje stilova na nasoj stranici-->
+        <!-- id-u "naslov" pristupamo sa prefiksom # u css-u -->
+        <h2 id="naslov" class="naslov">CSS mozomeo primeniti na nekoliko nacina</h2>
+        <ul>
+            <li style="color: rgb(74, 225, 225);text-align: center;">Inline stilovi</li>
+            <li>Stilovo defininisani unutar head tagu</li>
+            <li>Eksterni stilovi</li>
+        </ul>
+    </div>
+    <div>
+        <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis fugit non qui accusantium facere consequatur. </h1>
+        <p style="color: red;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci, dicta provident? Esse id officiis exercitation. 
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, odit delectus eius officia unde vero atque porro 
+        incidunt doloremque rerum?
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex enim pariatur, aliquam perspiciatis repudiandae placeat
+        doloremque architecto dolores odit eligendi, explicabo iusto delectus magni nostrum. Quam accusamus fugiat perspiciatis?
+        Aperiam obcaecati distinctio qui reiciendis impedit voluptas exercitationem voluptate fuga quasi.
+        </p>
+    </div>
+</body>
+</html>
