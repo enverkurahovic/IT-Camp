@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Young+Serif&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-family: "Young Serif", serif;
+}
+
+.first {
+  background-color: rgb(119, 231, 153);
+  width: 500px;
+  height: 500px;
+  display: inline-block;
+}
+
+/* stilovi za svaki P tag koji se nalazi unutar .first kontejnera */
+/* .first p {
+  color: blue;
+} */
+
+/* stilovi za p tag koji je direktono child elementa .first kontejnera */
+.first > p {
+  color: aqua;
+}
+
+/* stilovi za prvi p tag koji se nalazi nakon .first kontejnera */
+.first + p {
+  color: brown;
+}
+
+.second {
+  background-color: aqua;
+  width: 500px;
+  height: 500px;
+  display: inline-block;
+}
+
+.instagram {
+  color: rgb(240, 68, 68);
+  font-size: 50px;
+}
+
+.icon {
+  text-align: center;
+}
+.github {
+  font-size: 50px;
+}
+
+.icon2 {
+  text-align: center;
+}
+
+a {
+  color: rgb(249, 0, 0);
+  text-decoration: none;
+  font-style: italic;
+  font-weight: 900;
+}
+
+a:hover {
+  background-color: blue;
+}
+
+a:visited {
+  color: rgb(213, 179, 9);
+}
+
+a:active {
+  color: black;
+}
