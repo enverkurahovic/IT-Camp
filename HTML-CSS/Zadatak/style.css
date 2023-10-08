@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: rgb(197, 197, 197);
+}
+
+.box1 {
+  font-size: 23px;
+  margin-top: 200px;
+  margin-left: 170px;
+  float: left;
+}
+
+.face {
+  color: blue;
+}
+
+.box2 {
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 130px;
+  margin-left: 270px;
+  width: 420px;
+  height: 400px;
+  float: left;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nmp {
+  background-color: white;
+  margin-top: 20px;
+  float: right;
+  width: 100%;
+}
+
+.nmp input {
+  padding: 20px;
+  width: 90%;
+  height: 53px;
+  border-radius: 4px;
+  background-color: white;
+  opacity: 0.5;
+}
+
+button {
+  border-radius: 5px;
+  margin-top: 15px;
+  width: 83%;
+  height: 45px;
+  background-color: rgb(35, 35, 183);
+  padding: 5px;
+  color: white;
+  font-size: 20px;
+}
+
+.Zlozinka {
+  background-color: white;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Zlozinka a {
+  background-color: white;
+  color: blue;
+}
+
+.d {
+  background-color: white;
+}
+.d button {
+  border-radius: 6px;
+  margin-top: 20px;
+  width: 50%;
+  background-color: rgb(0, 167, 64);
+}
+
+.line {
+  margin-top: 25px;
+  border-top: 1px solid black;
+  margin-left: 10px;
+  margin-right: 10px;
+  opacity: 0.2;
+}
+
+.txt {
+  font-size: 29px;
+}
