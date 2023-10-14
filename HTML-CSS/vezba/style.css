@@ -1,0 +1,38 @@
+* {
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+.parent {
+  background-color: aqua;
+  width: 500px;
+  height: 500px;
+}
+
+.child1 {
+  background-color: black;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  top: 80px;
+  left: 110px;
+}
+
+.child2 {
+  background-color: lightblue;
+  width: 100px;
+  height: 100px;
+  position: sticky;
+  left: 200px;
+  top: 150px;
+  z-index: 5;
+}
+
+.child3 {
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  top: -40px;
+  left: 200px;
+}
