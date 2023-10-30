@@ -1,0 +1,373 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.img {
+  width: 90px;
+  height: 40px;
+  padding-left: 7px;
+  padding-top: 10px;
+}
+
+.c {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  left: 110px;
+  top: -25px;
+  letter-spacing: 0.5px;
+}
+
+.lupa {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  top: 3px;
+  left: 10px;
+}
+
+.input {
+  border: none;
+  outline: none;
+  width: 795px;
+  position: absolute;
+  left: 50px;
+  top: 8px;
+  border: 0;
+  background-color: rgb(255, 255, 255);
+}
+
+.prvi {
+  position: absolute;
+  top: 10px;
+  left: 200px;
+  width: 850px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid black;
+  border-radius: 100px;
+}
+
+.u {
+  position: relative;
+  left: 1070px;
+  top: -37px;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.2px;
+}
+
+.t {
+  position: relative;
+  left: 1185px;
+  top: -52px;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.2px;
+}
+
+.m {
+  position: relative;
+  left: 1305px;
+  top: -68px;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.2px;
+}
+
+.srce {
+  position: relative;
+  left: 1389px;
+  top: -105px;
+}
+
+.korpa {
+  position: relative;
+  left: 1399px;
+  top: -105px;
+}
+
+.user {
+  font-size: 40px;
+  position: relative;
+  left: 1440px;
+  top: -95px;
+}
+
+.zvono {
+  font-size: 18px;
+  position: relative;
+  left: 1367px;
+  top: -104px;
+}
+
+.line {
+  margin-top: -90px;
+  border-top: 1px solid black;
+  opacity: 0.2;
+}
+
+.kontejner {
+  font-family: "Roboto", sans-serif;
+}
+
+.d {
+  position: relative;
+  letter-spacing: 0.2px;
+  left: 280px;
+  top: 7px;
+}
+
+.b {
+  position: relative;
+  letter-spacing: 0.2px;
+  left: 385px;
+  top: -9px;
+}
+
+.f {
+  position: relative;
+  letter-spacing: 0.2px;
+  left: 465px;
+  top: -25px;
+}
+
+.i {
+  position: relative;
+  letter-spacing: 0.2px;
+  left: 615px;
+  top: -41px;
+}
+
+.o {
+  position: relative;
+  letter-spacing: 0.2px;
+  left: 720px;
+  top: -57px;
+}
+
+.p {
+  position: relative;
+  letter-spacing: 0.2px;
+  left: 850px;
+  top: -73px;
+}
+
+.z {
+  position: relative;
+  letter-spacing: 0.2px;
+  left: 1000px;
+  top: -89px;
+}
+
+.r {
+  position: relative;
+  letter-spacing: 0.2px;
+  left: 1050px;
+  top: -105px;
+}
+
+.h {
+  position: relative;
+  letter-spacing: 0.2px;
+  left: 1130px;
+  top: -121px;
+}
+
+.mic {
+  position: relative;
+  left: 1250px;
+  top: -137px;
+}
+
+.line2 {
+  margin-top: -127px;
+  border-top: 1px solid black;
+  opacity: 0.2;
+}
+
+.cont2 {
+  margin: auto;
+  width: 1150px;
+  height: 350px;
+  background-color: rgb(238, 238, 71);
+}
+
+.cont3 {
+  background-color: white;
+  position: relative;
+  top: 60px;
+  left: 50px;
+  width: 420px;
+  height: 130px;
+}
+
+.h1 {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.paragraf {
+  margin-left: 20px;
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.lala {
+  position: relative;
+  left: 650px;
+  width: 400px;
+  top: -150px;
+}
+
+.nzm {
+  position: relative;
+  left: 200px;
+  top: 10px;
+}
+
+html,
+body {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.aaa {
+  width: 350px;
+  height: 120px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin-left: 200px;
+  margin-top: 30px;
+}
+
+.ooo {
+  margin-left: -40px;
+  width: 150px;
+  height: 100px;
+}
+
+.zza {
+  position: relative;
+  left: 100px;
+  top: -90px;
+}
+
+.az {
+  position: relative;
+  top: -80px;
+  left: 100px;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.4px;
+}
+
+.zz {
+  position: relative;
+  top: -70px;
+  left: 100px;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.kk {
+  text-decoration: none;
+}
+
+.x {
+  position: relative;
+  left: 330px;
+  top: -78px;
+  font-size: 13px;
+}
+
+.mylearning {
+  position: relative;
+  left: 1200px;
+  top: -150px;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.cake {
+  position: absolute;
+  top: 516px;
+  left: 560px;
+  width: 215Spx;
+  height: 119px;
+  display: block;
+}
+
+.lav {
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  position: absolute;
+  left: 790px;
+  top: 520px;
+  z-index: 10;
+}
+
+.pas {
+  font-size: 17px;
+  position: absolute;
+  left: 790px;
+  top: 550px;
+}
+
+.macka {
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  left: 790px;
+  top: 620px;
+}
+
+.zebra {
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+  position: absolute;
+  left: 850px;
+  top: 620px;
+}
+
+.line3 {
+  margin-right: 490px;
+  margin-left: 560px;
+  margin-top: -17.8px;
+  border-top: 1px solid black;
+  opacity: 0.2;
+}
+
+.line4 {
+  margin-right: 490px;
+  margin-left: 560px;
+  margin-top: -119.1px;
+  border-top: 1px solid black;
+  opacity: 0.2;
+}
+
+.vertical-line {
+  border-left: 1px solid black;
+  height: 119px;
+  position: absolute;
+  left: 1046px;
+  top: 400px;
+  opacity: 0.2;
+  margin-top: 116px;
+}
+
+.vertical-line2 {
+  border-left: 1px solid black;
+  height: 119px;
+  position: absolute;
+  left: 560px;
+  top: 400px;
+  opacity: 0.2;
+  margin-top: 116px;
+}
+
+.noline {
+  text-decoration: none;
+  color: black;
+}

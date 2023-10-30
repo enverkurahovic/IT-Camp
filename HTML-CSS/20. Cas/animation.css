@@ -1,0 +1,33 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.parent {
+  margin: auto;
+  background-color: rgb(6, 27, 113);
+  width: 500px;
+  height: 500px;
+}
+
+.child {
+  width: 50%;
+  height: 50%;
+  background-color: #156c03;
+  transition: transform 1s ease-in-out;
+  /* transition: all 1s ease-in-out; atransition se odnosi na sva css svojstva */
+  /* transition-property: transform; */
+  /* transition-duration: 1s; */
+  /* transition-timing-function: ease-in-out; */
+  /* transition-delay: 1s; */
+}
+
+.parent:hover .child {
+  transform: translateX(100%); /* transformacija po x osi */
+  /* transform: translateY(100%); - transformacija po y osi  */
+  /* transform: translate(100%, 100%); transformacija po x i y osi */
+  /* transform: scale(1.2); povecanje elementa */
+  /* transform: scale(0.8); smanjenje elementa */
+  /* transform: scale(0.8, 1.2); promena po sirini (visini) */
+  background-color: red;
+}

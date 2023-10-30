@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap");
+
+body {
+  font-family: "Pixelify Sans", sans-serif;
+}
+
 * {
   margin: 0;
   box-sizing: border-box;
@@ -92,4 +98,72 @@ button {
 
 .txt {
   font-size: 29px;
+}
+
+.np {
+  font-size: 30px;
+  clear: both;
+}
+
+.lala {
+  border-radius: 7px;
+  background-color: rgb(185, 185, 185);
+  position: relative;
+  left: 40px;
+  width: 95%;
+  height: 100px;
+  position: sticky;
+  top: 0px;
+  z-index: 10;
+}
+
+.book {
+  background-color: rgba(185, 185, 185, 0);
+  color: blue;
+  position: sticky;
+  top: 0px;
+  padding: 10px;
+  position: relative;
+  left: 40px;
+  top: -30px;
+  font-size: 40px;
+}
+
+.h3 {
+  background-color: rgb(185, 185, 185);
+  display: inline;
+  position: relative;
+  left: 800px;
+  top: -60px;
+}
+
+.h4 {
+  background-color: rgb(185, 185, 185);
+  display: inline;
+  position: relative;
+  left: 850px;
+  top: -60px;
+}
+
+.h5 {
+  background-color: rgb(185, 185, 185);
+  display: inline;
+  position: relative;
+  left: 900px;
+  top: -60px;
+}
+.h6 {
+  background-color: rgb(185, 185, 185);
+  display: inline;
+  position: relative;
+  left: 950px;
+  top: -60px;
+}
+
+.facebook {
+  background-color: rgb(185, 185, 185);
+  font-size: 35px;
+  position: relative;
+  top: 20px;
+  left: 10px;
 }
