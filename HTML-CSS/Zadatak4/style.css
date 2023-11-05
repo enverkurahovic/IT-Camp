@@ -1,0 +1,118 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+header {
+  border: 1px solid #0000003b;
+  height: 50px;
+}
+
+.main {
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 400px 100px 100px 100px 100px 100px 150px 50px 50px 50px 50px;
+  gap: 10px;
+  color: white;
+}
+
+body {
+  background-image: url(https://wallpaperaccess.com/full/1753286.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+h2 {
+  transition: transform 0.2s ease-in-out;
+}
+
+.box2:hover h2 {
+  transform: scale(1.2);
+}
+
+h2 {
+  transition: transform 0.2s ease-in-out;
+}
+
+.box3:hover h2 {
+  transform: scale(1.2);
+}
+
+h2 {
+  transition: transform 0.2s ease-in-out;
+}
+
+.box4:hover h2 {
+  transform: scale(1.2);
+}
+
+h2 {
+  transition: transform 0.2s ease-in-out;
+}
+
+.box5:hover h2 {
+  transform: scale(1.2);
+}
+
+h2 {
+  transition: transform 0.2s ease-in-out;
+}
+
+.box6:hover h2 {
+  transform: scale(1.2);
+}
+
+h2 {
+  transition: transform 0.2s ease-in-out;
+}
+
+.box7:hover h2 {
+  transform: scale(1.2);
+}
+
+h4 {
+  transition: transform 0.2s ease-in-out;
+}
+
+.box8:hover h4 {
+  transform: scale(1.5);
+}
+
+h4 {
+  transition: transform 0.2s ease-in-out;
+}
+
+.box9:hover h4 {
+  transform: scale(1.5);
+}
+
+h4 {
+  transition: transform 0.2s ease-in-out;
+}
+
+.box10:hover h4 {
+  transform: scale(1.5);
+}
+
+h4 {
+  transition: transform 0.2s ease-in-out;
+}
+
+.box11:hover h4 {
+  transform: scale(1.5);
+}
+
+.box4 {
+  margin-left: 20px;
+}
+
+.box5 {
+  margin-left: 25px;
+}
+
+.box6 {
+  margin-left: 20px;
+}
