@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200&display=swap");
+
 * {
   margin: 0px;
   box-sizing: border-box;
@@ -6,23 +8,35 @@
 header {
   border: 1px solid #0000003b;
   height: 50px;
+  position: sticky;
+  top: 0px;
+  background-color: rgba(0, 0, 0, 0.537);
 }
 
 .main {
-  justify-content: center;
+  justify-items: center;
   align-items: center;
   display: grid;
-  grid-template-columns: 400px 100px 100px 100px 100px 100px 150px 50px 50px 50px 50px;
+  grid-template-columns: 400px 100px 100px 110px 100px 40px 140px 50px 50px 50px 50px;
   gap: 10px;
   color: white;
 }
 
+.ikonice {
+  font-size: 20px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  gap: 25px;
+  margin-left: 40vw;
+}
+
 body {
-  background-image: url(https://wallpaperaccess.com/full/1753286.jpg);
-  background-size: 100% 100%;
+  background-image: url("https://wallpaperaccess.com/full/1753286.jpg");
+  background-size: 100% 800px;
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
+  background-attachment: scroll;
+  background-position: center top;
 }
 
 h2 {
@@ -105,14 +119,148 @@ h4 {
   transform: scale(1.5);
 }
 
-.box4 {
-  margin-left: 20px;
-}
-
 .box5 {
-  margin-left: 25px;
+  margin-right: 14px;
 }
 
-.box6 {
-  margin-left: 20px;
+.img1 {
+  padding: 5px;
+  margin-right: 20vh;
+  width: 160px;
+}
+
+.noline {
+  text-decoration: none;
+  color: white;
+}
+
+main {
+  margin: 100px;
+  margin-top: 800px;
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  justify-content: center;
+  align-items: center;
+  gap: 50vh;
+}
+
+.box12 {
+  /* background-color: red; */
+  width: 400px;
+  height: 400px;
+  margin-left: -150px;
+  font-size: larger;
+  padding: 20px;
+}
+
+.box13 {
+  background-color: blue;
+  width: 400px;
+  height: 400px;
+  margin-left: -180px;
+}
+
+.box14 {
+  /* background-color: green; */
+  width: 400px;
+  height: 400px;
+  margin-left: -140px;
+}
+
+h1 {
+  color: rgba(0, 0, 0, 0.74);
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 100;
+  word-spacing: 3px;
+  font-size: 50px;
+  line-height: 1;
+}
+
+p {
+  color: rgba(0, 0, 0, 0.84);
+  margin-top: 30px;
+  word-spacing: 3px;
+}
+
+.slk {
+  margin-top: 40px;
+  width: 100px;
+}
+
+.slk2 {
+  width: 410px;
+}
+
+.slk3 {
+  width: 200px;
+}
+
+h3 {
+  padding-top: 20px;
+  color: rgba(0, 0, 0, 0.74);
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.txt {
+  color: black;
+  text-align: justify;
+  word-spacing: 5px;
+  line-height: 1.5;
+  font-size: 25px;
+}
+
+button {
+  border: 1px solid black;
+  margin-top: 28px;
+  width: 150px;
+  height: 50px;
+  transition: color 0.3s, background-color;
+  color: black;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+  transition-delay: 0.3s;
+}
+
+.images {
+  padding: 0px;
+  margin: 0px;
+  margin-left: -40px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(501px, 501px));
+  margin-bottom: 100px;
+}
+
+img {
+  width: 540px;
+  object-fit: cover;
+  object-position: cover;
+}
+
+.slika1 {
+  height: 361px;
+}
+
+.grid3 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 500px));
+  margin-bottom: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-img-top {
+  width: 400px;
+  height: 300px;
+  margin-left: 40px;
+}
+
+.card-text {
+  margin-left: 40px;
 }
