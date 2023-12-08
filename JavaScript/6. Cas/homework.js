@@ -5,13 +5,13 @@
 // ako je broj godina izmedju 18(ukljucuje) i 40(ne ukljucuje): Vi ste punoletni
 // ako je broj godina veci ili jednak 40: Vi ste zrela osoba.
 
-const brojGodina = 151;
+const brojGodina = 12;
 
-if (brojGodina < 12) {
+if (brojGodina <= 12) {
   console.log("Vi ste decijeg doba");
-} else if (brojGodina < 12 && brojGodina <= 17) {
+} else if (brojGodina < 12 || brojGodina <= 17) {
   console.log("Vi ste maloletni");
-} else if (brojGodina > 18 && brojGodina <= 39) {
+} else if (brojGodina >= 18 && brojGodina <= 39) {
   console.log("Vi ste punoletni");
 } else if (brojGodina >= 40) {
   console.log("Vi ste zrela osoba");
