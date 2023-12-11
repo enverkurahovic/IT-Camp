@@ -4,7 +4,7 @@ if (brojGodina < 0) {
   console.log("Broj godina ne moze biti negativan");
 } else if (brojGodina <= 12) {
   console.log("Vi ste decijeg doba");
-} else if (brojGodina >= 12 || brojGodina <= 17) {
+} else if (brojGodina >= 12 && brojGodina <= 17) {
   console.log("Vi ste maloletni");
 } else if (brojGodina >= 18 && brojGodina <= 39) {
   console.log("Vi ste punoletni");
@@ -52,7 +52,7 @@ if (isNaN(brojBodova)) {
 // Provera parnosti broja:
 // Napiši program koji će korisnika pitati za unos broja, a zatim ispisati poruku da li je broj paran ili neparan.
 
-const broj = +prompt("Unesite broj 2");
+const broj = +prompt("Unesite broj ");
 
 if (isNaN(brojBodova)) {
   console.log("Molim vas unesite broj bez slova");
@@ -74,4 +74,6 @@ if (isNaN(broj1, broj2)) {
   console.log("Broj jedan je veci");
 } else if (broj1 < broj2) {
   console.log("Broj dva je veci");
+} else {
+  console.log("Brojevi su jednaki");
 }
