@@ -35,7 +35,7 @@ switch (true) {
     console.log("Kolicnik x/y = " + x / y);
     break;
   default:
-    console.log("Deljenje je nemoguce. Broj y ne sme biti nula.");
+    console.log("Deljenje je nemoguce broj y ne sme biti nula");
     break;
 }
 
@@ -84,7 +84,6 @@ if ((mesec >= 1 && mesec <= 2) || mesec === 12) {
 // 4. Kalkulator operacija:
 // Napiši program koji će tražiti od korisnika da unese dva broja i operaciju (‘+’, ‘-’, ‘*’, ‘/’), a zatim ispisati rezultat te operacije.
 
-// Korisnik unosi dva broja i operaciju
 let br1 = +prompt("Unesite prvi broj:");
 let br2 = +prompt("Unesite drugi broj:");
 let operacija = prompt("Unesite operaciju (+, -, *, /):");
