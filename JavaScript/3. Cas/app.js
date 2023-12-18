@@ -1,4 +1,4 @@
-// Postoji nekoliko nacina za prikazivanje podataa u JavaScriptu:
+// Postoji nekoliko nacina za prikazivanje podataka u JavaScriptu:
 
 // 1. innerHTML
 
