@@ -4,13 +4,6 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0);
-
-  const arr = [];
-  for (let i = 0; i < 10; i++) {
-    arr.push(i);
-  }
-
   return (
     <>
       <div>
@@ -39,5 +32,4 @@ function App() {
     </>
   );
 }
-
 export default App;
