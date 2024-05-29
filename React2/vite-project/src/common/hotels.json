@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "imageUrl": "https://images.trvl-media.com/lodging/1000000/50000/41100/41081/18cfc8a0.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+    "title": "Vrbak ",
+    "stars": 4,
+    "content": "resort ",
+    "total": 450
+  },
+  {
+    "id": 2,
+    "imageUrl": "https://www.kayak.co.uk/news/wp-content/uploads/sites/5/2023/08/THEME_HOTEL_SIGN_FIVE_STARS_FACADE_BUILDING_GettyImages-1320779330-3-1640x1312.jpg",
+    "title": "Kayak ",
+    "stars": 4,
+    "content": "resort with  ",
+    "rating": "8.0/10",
+    "total": 110
+  },
+  {
+    "id": 3,
+    "imageUrl": "https://images.trvl-media.com/lodging/1000000/50000/41100/41081/18cfc8a0.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+    "title": "Tadz  ",
+    "stars": 5,
+    "content": "Luxury ",
+    "rating": "8.8/10",
+    "total": 210
+  },
+  {
+    "id": 4,
+    "imageUrl": "https://images.trvl-media.com/lodging/1000000/30000/24300/24245/ab463c41.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+    "title": "Ideal ",
+    "stars": 4,
+    "content": "hotel with ",
+    "rating": "7.2/10",
+    "total": 190
+  },
+  {
+    "id": 5,
+    "imageUrl": "https://images.trvl-media.com/lodging/14000000/13410000/13400100/13400088/3ddc9447.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+    "title": "Four ",
+    "stars": 3.5,
+    "content": "hotel with ",
+    "rating": "7.4/10",
+    "total": 110
+  },
+  {
+    "id": 6,
+    "imageUrl": "https://images.trvl-media.com/lodging/49000000/48670000/48669400/48669360/4b28c418.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+    "title": "Arlo ",
+    "stars": 4,
+    "content": "hotel with ",
+    "rating": "9.2/10",
+    "total": 300
+  },
+  {
+    "id": 7,
+    "imageUrl": "https://images.trvl-media.com/lodging/1000000/30000/24300/24245/ab463c41.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+    "title": "Star",
+    "stars": 4,
+    "content": "hotel with ",
+    "rating": "7.2/10",
+    "total": 210
+  },
+  {
+    "id": 8,
+    "imageUrl": "https://images.trvl-media.com/lodging/14000000/13410000/13400100/13400088/3ddc9447.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+    "title": "Palma",
+    "stars": 3.5,
+    "content": "hotel with ",
+    "rating": "5.6/10",
+    "total": 100
+  },
+  {
+    "id": 9,
+    "imageUrl": "https://www.serbia.travel/files/Smestaj/NP-hotel-Atlas-2016-08-20-01-1024x681-1-720x400.jpg",
+    "title": "Atlas ",
+    "stars": 4,
+    "content": "hotel with ",
+    "rating": "6/10",
+    "total": 180
+  }
+]
