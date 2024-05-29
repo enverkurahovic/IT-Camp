@@ -1,5 +1,5 @@
 function Com() {
-  return <div>Ovo je moja prva komponenta</div>;
+  return <div></div>;
 }
 
 export default Com;

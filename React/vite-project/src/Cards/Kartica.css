@@ -1,0 +1,126 @@
+.hotels {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.card {
+  background-color: rgb(231, 218, 218);
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* margin: 20px; */
+  padding: 20px;
+  max-width: 500px;
+  height: 400px;
+  transition: box-shadow 0.3s ease;
+}
+
+.card-price {
+  background-color: rgb(15, 15, 105);
+  border-radius: 6px;
+  padding: 6px;
+  height: 20px;
+  margin-top: 30px;
+  color: aliceblue;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+  gap: 10px;
+}
+
+.icon {
+  font-size: 18px;
+  padding-left: 6px;
+  color: rgb(255, 255, 255);
+}
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+  font-size: 1.4em;
+  margin-bottom: 8px;
+  margin-right: 190px;
+  color: black;
+}
+
+.card-content {
+  font-size: 1em;
+  color: #201f1f;
+  margin-right: 190px;
+}
+
+.card-text {
+  font-size: 1em;
+  color: #201f1f;
+  margin-right: 195px;
+}
+.card-total {
+  font-size: 1em;
+  color: #201f1f;
+  margin-right: 190px;
+}
+
+.button-text {
+  color: aliceblue;
+  font-size: 14px;
+}
+
+.header {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(222, 215, 215);
+  justify-content: space-between;
+  border-radius: 10px;
+  position: sticky;
+  top: 0px;
+  border: 1px solid rgba(0, 0, 0, 0.478);
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-right: 70px;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+
+.link {
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  color: black;
+}
+
+.link:hover {
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  color: rgb(15, 15, 105);
+  text-decoration: double underline;
+}
+
+.slika1 {
+  height: 80%;
+  width: 150px;
+  display: flex;
+  margin-left: 20px;
+}
+
+.hotelinp {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+/* .liste {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+} */
